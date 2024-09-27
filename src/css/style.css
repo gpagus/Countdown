@@ -1,0 +1,43 @@
+
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    color: #f2f2f2;
+    background-image: url(../images/birthday.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #00b4fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #005bc5;
+    border-radius: 10px;
+    padding: 40px 80px;
+}
+
+
+#countdown{
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.orange{
+    color: orange;
+}
+
+
+
